@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Axgot\LaravelRemote\Tests;
 
 class ExampleTest extends TestCase
 {

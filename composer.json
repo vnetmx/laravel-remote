@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "axgot/laravel-remote",
+    "description": "Execute remote commands through ssh protocol",
     "keywords": [
-        ":vendor_name",
+        "axgot",
         "laravel",
-        "package_slug"
+        "laravel-remote"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/axgot/laravel-remote",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alejandro Mendez",
+            "email": "alejandro.mendez@axgot.com.mx",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Axgot\\LaravelRemote\\": "src",
+            "Axgot\\LaravelRemote\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Axgot\\LaravelRemote\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Axgot\\LaravelRemote\\LaravelRemoteServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelRemote": "Axgot\\LaravelRemote\\LaravelRemoteFacade"
             }
         }
     },
