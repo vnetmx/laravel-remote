@@ -2,9 +2,9 @@
 
 namespace Axgot\LaravelRemote\Tests;
 
+use Axgot\LaravelRemote\LaravelRemoteServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Axgot\LaravelRemote\LaravelRemoteServiceProvider;
 
 class TestCase extends Orchestra
 {

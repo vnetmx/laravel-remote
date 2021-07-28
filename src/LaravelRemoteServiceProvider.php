@@ -2,9 +2,9 @@
 
 namespace Axgot\LaravelRemote;
 
+use Axgot\LaravelRemote\Commands\LaravelRemoteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Axgot\LaravelRemote\Commands\LaravelRemoteCommand;
 
 class LaravelRemoteServiceProvider extends PackageServiceProvider
 {
